@@ -2,9 +2,80 @@
 <html>
 <head>
   <title>Nail Warehouse India</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body{
+      font-family: Arial, sans-serif;
+      margin:0;
+      background:#f8f8f8;
+    }
+    header{
+      background:#111;
+      color:white;
+      padding:20px;
+      text-align:center;
+    }
+    .hero{
+      text-align:center;
+      padding:50px 20px;
+      background:white;
+    }
+    .products{
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      gap:20px;
+      padding:20px;
+    }
+    .card{
+      background:white;
+      width:250px;
+      padding:20px;
+      border-radius:12px;
+      box-shadow:0 2px 10px rgba(0,0,0,0.1);
+      text-align:center;
+    }
+    button{
+      background:#111;
+      color:white;
+      border:none;
+      padding:10px 20px;
+      border-radius:8px;
+      cursor:pointer;
+    }
+  </style>
 </head>
 <body>
-  <h1>Welcome to Nail Warehouse India</h1>
-  <p>Your one-stop shop for nail products and accessories.</p>
+
+<header>
+  <h1>Nail Warehouse India</h1>
+  <p>Premium Nail Products & Accessories</p>
+</header>
+
+<section class="hero">
+  <h2>Welcome to Nail Warehouse India</h2>
+  <p>Shop professional nail products online.</p>
+</section>
+
+<section class="products">
+  <div class="card">
+    <h3>Gel Nail Polish</h3>
+    <p>₹299</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <h3>Nail Art Kit</h3>
+    <p>₹499</p>
+    <button>Add to Cart</button>
+  </div>
+
+  <div class="card">
+    <h3>Nail Extension Kit</h3>
+    <p>₹799</p>
+    <button>Add to Cart</button>
+  </div>
+</section>
+
 </body>
 </html>
