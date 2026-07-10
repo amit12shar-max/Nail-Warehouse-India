@@ -1,137 +1,28 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Nail Warehouse India</title>
+<div class="content">
+  <h2>SAVNI Cat Eye Fashion Choice Set</h2>
 
-<style>
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  font-family:Arial,sans-serif;
-}
-
-body{
-  background:#fff5f7;
-}
-
-header{
-  background:#111;
-  color:white;
-  text-align:center;
-  padding:20px;
-}
-
-header h1{
-  font-size:32px;
-}
-
-header p{
-  margin-top:8px;
-}
-
-/* Banner */
-.hero img{
-  width:100%;
-  display:block;
-}
-
-/* Product Section */
-.products{
-  display:flex;
-  justify-content:center;
-  padding:40px 20px;
-}
-
-.card{
-  background:white;
-  width:380px;
-  border-radius:20px;
-  overflow:hidden;
-  box-shadow:0 5px 20px rgba(0,0,0,0.15);
-}
-
-.content{
-  padding:25px;
-  text-align:center;
-}
-
-.content h2{
-  margin-bottom:20px;
-  color:#222;
-}
-
-.mrp{
-  color:gray;
-  text-decoration:line-through;
-  font-size:22px;
-}
-
-.offer{
-  color:#e91e63;
-  font-size:42px;
-  font-weight:bold;
-  margin-top:10px;
-}
-
-.save{
-  color:green;
-  font-weight:bold;
-  margin:15px 0;
-}
-
-button{
-  background:#e91e63;
-  color:white;
-  border:none;
-  padding:14px 30px;
-  border-radius:12px;
-  font-size:18px;
-  cursor:pointer;
-}
-</style>
-
-</head>
-<body>
-
-<header>
-  <h1>Nail Warehouse India</h1>
-  <p>Premium Nail Products & Accessories</p>
-</header>
-
-<!-- FULL SIZE BANNER -->
-<section class="hero">
-  <img src="ChatGPT Image Jul 11, 2026, 02_34_33 AM.png" alt="Banner">
-</section>
-
-<!-- PRODUCT CARD -->
-<section class="products">
-
-  <div class="card">
-
-    <div class="content">
-      <h2>SAVNI Cat Eye Fashion Choice Set</h2>
-
-      <div class="mrp">
-        MRP ₹13,000
-      </div>
-
-      <div class="offer">
-        ₹12,000
-      </div>
-
-      <div class="save">
-        🔥 Save ₹1,000
-      </div>
-
-      <button>Add to Cart</button>
-    </div>
-
+  <div class="mrp">
+    MRP ₹13,000
   </div>
 
-</section>
+  <div class="offer">
+    ₹12,000
+  </div>
 
-</body>
-</html>
+  <div class="save">
+    🔥 Save ₹1,000
+  </div>
+
+  <input id="name" type="text" placeholder="Enter Your Name"
+  style="width:100%;padding:12px;margin-top:20px;margin-bottom:10px;border:1px solid #ddd;border-radius:10px;">
+
+  <input id="phone" type="tel" placeholder="Enter Phone Number"
+  style="width:100%;padding:12px;margin-bottom:10px;border:1px solid #ddd;border-radius:10px;">
+
+  <textarea id="address" placeholder="Enter Delivery Address"
+  style="width:100%;padding:12px;height:80px;margin-bottom:15px;border:1px solid #ddd;border-radius:10px;"></textarea>
+
+  <button onclick="sendOrder()" style="background:#25D366;">
+    Order on WhatsApp
+  </button>
+</div>
